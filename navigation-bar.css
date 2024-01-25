@@ -5,16 +5,19 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     background: #0D1116;
+    overflow-x: hidden;
 }
 
 .top-right-image{
-    position: fixed;
-    top: 0;
-    right: 150px;
-    z-index: -999;
+    position: relative;
+    z-index: -1;
     opacity: 0.88;
 }
 .container{
