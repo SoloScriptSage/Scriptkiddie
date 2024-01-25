@@ -11,10 +11,11 @@ body{
 }
 
 .top-right-image{
-    position: fixed !important;
+    position: fixed;
     top: 0;
-    right: 0;
-    z-index: 999;
+    right: 150px;
+    z-index: -999;
+    opacity: 0.88;
 }
 .container{
     width: 80%;
