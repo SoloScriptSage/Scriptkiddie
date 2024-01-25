@@ -2,7 +2,7 @@
   <img src="assets/images/logo.png" alt="Scriptkiddie Logo" width="500">
 </p>
 
-<h1 align="center">Welcome to Scriptkiddie - Your Ultimate Platform for Competitive Programming!</h1>
+<h1 align="center">Your Ultimate Platform for Competitive Programming!</h1>
 ## Overview
 
 Scriptkiddie is a dedicated platform designed to empower individuals in mastering competitive programming. Whether you're a beginner or an experienced coder, our platform provides a structured roadmap and a variety of challenges to enhance your coding skills.
