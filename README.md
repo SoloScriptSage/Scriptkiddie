@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo.png" alt="Scriptkiddie Logo">
+  <img src="assets/images/logo.png" alt="Scriptkiddie Logo" width="300">
 </p>
 
 <h1 align="center">Your Ultimate Platform for Competitive Programming!</h1>
