@@ -1,3 +1,5 @@
+/* General styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 @font-face {
@@ -16,6 +18,9 @@ body{
     background: #0D1116;
 }
 
+
+/* Hero */
+
 .hero{
     width: 80%;
     margin: 0 auto;
@@ -33,6 +38,8 @@ body{
     font-size: 24px;
     font-family: Roboto Thin;
 }
+
+/* Buttons */
 
 .hero-buttons{
     margin-top: 3em !important;
@@ -101,6 +108,8 @@ body{
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
+/*  Feature Challenges  */
+
 .feature-challenges{
     width: 80%;
     margin: 0 auto;
@@ -124,13 +133,62 @@ body{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
     border: 1px solid #2F363C;
     background-color: #161B22;
     border-radius: 8px;
-    padding: 25px;
+    padding: 1.5em;
     width: 400px;
 }
 
+.card .card-info{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
+.card .diff{
+    font-family: Roboto Thin;
+}
+
 .card h2{
+    color: #fff;
+    font-family: SF-Pro-Display-Bold;
+    letter-spacing: 2px;
+}
+
+.card .diff{
+    color: #788E97;
+}
+
+.card .easy{
+    color: #14AD04;
+}
+
+.card .med{
+    color: #E99700;
+}
+
+.card .adv{
+    color: #C90000;
+}
+
+.card-picture,
+.button{
+    margin: 10px 0;
+}
+
+.card-picture{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card .start-date{
     color: #fff;
 }
