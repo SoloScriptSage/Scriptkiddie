@@ -45,7 +45,9 @@ body{
     margin-top: 3em !important;
 }
 
-.hero .button{
+.button{
+    border: 1px solid rgba(27, 31, 35, .15);
+    background-color: #793FC6;
     appearance: none;
     border-radius: 6px;
     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
@@ -68,20 +70,6 @@ body{
     white-space: nowrap;
 }
 
-.button-3{
-    border: 1px solid rgba(27, 31, 35, .15);
-    background-color: #793FC6;
-}
-
-.button-4{
-    border: 2px solid #793FC6;
-    background-color: transparent;
-    margin-left: 10px;
-}
-
-.button-4:hover{
-    box-shadow: #3f1f68 0 0 0 3px;
-}
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
     box-shadow: none;
     outline: none;
@@ -106,6 +94,16 @@ body{
 .button-3:active {
     background-color: #793FC6;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.button-4{
+    border: 2px solid #793FC6;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.button-4:hover{
+    box-shadow: #3f1f68 0 0 0 3px;
 }
 
 /*  Feature Challenges  */
@@ -142,14 +140,13 @@ body{
     background-color: #161B22;
     border-radius: 8px;
     padding: 1.5em;
-    width: 400px;
+    width: 300px;
 }
 
 .card .card-info{
     text-align: left;
     margin-bottom: 15px;
 }
-
 
 .card .diff{
     font-family: Roboto Thin;
