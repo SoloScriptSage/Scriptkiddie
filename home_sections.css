@@ -18,12 +18,9 @@ body{
     background: #0D1116;
 }
 
-
 /* Hero */
 
 .hero{
-    width: 80%;
-    margin: 0 auto;
     padding: 150px 0;
 }
 .hero-content h1{
@@ -56,7 +53,7 @@ body{
     cursor: pointer;
     display: inline-block;
     font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 20px;
     padding: 10px 20px;
@@ -109,8 +106,6 @@ body{
 /*  Feature Challenges  */
 
 .feature-challenges{
-    width: 80%;
-    margin: 0 auto;
     padding: 50px 0;
 }
 
@@ -126,7 +121,7 @@ body{
 .cards{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 20px 0px;
     margin-top: 30px;
 }
 
@@ -140,7 +135,6 @@ body{
     background-color: #161B22;
     border-radius: 8px;
     padding: 1.5em;
-    width: 300px;
 }
 
 .card .card-info{
@@ -153,6 +147,7 @@ body{
 }
 
 .card h2{
+    font-size: 24px;
     color: #fff;
     font-family: SF-Pro-Display-Bold;
     letter-spacing: 2px;
@@ -180,12 +175,36 @@ body{
 }
 
 .card-picture{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 50%;
     margin-bottom: 15px;
     text-align: center;
 }
 
 .card .start-date{
     color: #fff;
+}
+
+@keyframes waveAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.section-divider {
+    border: none !important;
+    height: 3px;
+    background: linear-gradient(90deg, #226591, #bd4bee);
+
+    background-size: 200% 200%;
+    animation: waveAnimation 3s infinite;
+    margin: 20px 0;
 }
